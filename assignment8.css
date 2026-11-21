@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #cfcfcf;
+}
+
+section:first-of-type{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin: 0 auto;
+    gap: 20px;
+    background-color: #cfcfcf;
+}
+section:first-of-type > div {
+    width: 100%;
+    /* height: 15em; */
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.daniel-card {
+    background-color: #7541c8;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+    height: 17em;
+}
+
+.jonathan-card {
+    background-color: #48556a;
+    height: 17em;
+}
+
+.kira-card {
+    background-color: #f4f5ef;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 100%;
+}
+
+.jeanette-card {
+    background-color: #f4f5ef;
+    height: 17em;
+}
+
+.patrick-card {
+    background-color: #19212e;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    height: 17em;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+    border-radius: 40px;
+}
+
+.profile-info {
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    color: #ffffff;
+}
+.info{
+    color: #474747;
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+}
+.graduate{
+    color: #c1bfbf;
+    font-size: medium;
+}
+.information{
+    margin: 15px;
+    color: #ffffff;
+}
+.information-female{
+    margin: 15px;
+    color: #474747;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* }
+section:first-of-type div:first-child{
+    background-color: #7A42D1;
+    grid-row-start: 1;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    width: 100%;
+}
+section:first-of-type div:nth-child(2){
+    background-color: blue;
+
+}
+section:first-of-type div:nth-child(3){
+    background-color: blue;
+    grid-column-start: 4;
+    grid-row-start: 1;
+    grid-row-end: 3;
+    height: 100%;
+}
+section:first-of-type div:nth-child(4){
+    background-color: blue;
+
+}
+section:first-of-type div:nth-child(5){
+    background-color: blue;
+    grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 4;
+
+} */
