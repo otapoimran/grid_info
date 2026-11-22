@@ -21,6 +21,7 @@ section:first-of-type > div {
     border-radius: 10px;
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
     transition: all 0.3s ease;
+    padding: 20px;
 }
 
 .daniel-card {
@@ -67,25 +68,26 @@ img {
 .profile-info {
     display: flex;
     gap: 10px;
-    margin: 10px;
+    /* margin: 10px; */
     color: #ffffff;
 }
 .info{
     color: #474747;
     display: flex;
     gap: 10px;
-    margin: 10px;
+
+    /* margin: 10px; */
 }
 .graduate{
     color: #c1bfbf;
     font-size: medium;
 }
 .information{
-    margin: 15px;
+    /* margin: 15px; */
     color: #ffffff;
 }
 .information-female{
-    margin: 15px;
+    /* margin: 15px; */
     color: #474747;
 }
 
